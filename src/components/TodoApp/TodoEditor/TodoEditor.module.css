@@ -1,0 +1,32 @@
+.form {
+  margin-bottom: 30px;
+}
+
+.taskInputWrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  display: block;
+  width: 80%;
+  height: 50px;
+  resize: none;
+  outline: none;
+  margin-left: auto;
+  padding: 10px 15px;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 3px;
+  background-color: rgb(241, 241, 241);
+  padding: 15px;
+}
+
+.btn {
+  display: block;
+  padding: 10px 15px;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: auto;
+}

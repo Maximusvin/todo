@@ -1,0 +1,130 @@
+.list {
+  margin-bottom: 30px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 3px;
+  background-color: rgb(241, 241, 241);
+  transition: all 0.2s linear;
+}
+
+.item:hover {
+  transform: scale(1.021);
+}
+
+.itemCompleted {
+  composes: item;
+  background-color: rgb(48, 168, 0);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(209, 3, 3);
+  border-radius: 3px;
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  background-color: rgb(180, 3, 3);
+  transform: scale(1.03);
+}
+
+.btnCheck {
+  cursor: pointer;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 158, 8);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  transition: all 0.2s linear;
+}
+
+.btnUpdate {
+  cursor: pointer;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(37, 0, 202);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  transition: all 0.2s linear;
+}
+
+.btnCheckCompleted {
+  composes: btnCheck;
+  background-color: rgb(88, 88, 88);
+}
+
+.btnCheck:hover {
+  background-color: rgb(0, 116, 6);
+  transform: scale(1.03);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon path {
+  stroke: #fff;
+}
+
+.iconCheck {
+  width: 15px;
+  height: 15px;
+  color: #fff;
+}
+
+.notification {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.formUpdate {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.inputUpdateTodo {
+  display: block;
+  outline: none;
+  padding: 5px 10px;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  margin-right: 15px;
+}
+
+.btnUpdateText {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.iconUpdate {
+  width: 20px;
+  height: 20px;
+}
